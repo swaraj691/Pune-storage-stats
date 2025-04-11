@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .resources {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .resource-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+        }
+        .resource-item:last-child {
+            margin-bottom: 0;
+        }
+        .resource-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+        .resource-description {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .resource-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .resource-link:hover {
+            background-color: #2980b9;
+        }
+        .excel-link {
+            background-color: #27ae60;
+        }
+        .excel-link:hover {
+            background-color: #219653;
+        }
+        .powerpoint-link {
+            background-color: #e74c3c;
+        }
+        .powerpoint-link:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <h1>Document Resources</h1>
+    
+    <div class="resources">
+        <div class="resource-item">
+            <div class="resource-title">Project Budget Spreadsheet</div>
+            <div class="resource-description">
+                This Excel file contains our quarterly budget projections, expense tracking, and financial forecasts for the upcoming fiscal year.
+            </div>
+            <a href="budget-2025.xlsx" class="resource-link excel-link">Open Excel File</a>
+        </div>
+        
+        <div class="resource-item">
+            <div class="resource-title">Project Presentation</div>
+            <div class="resource-description">
+                This PowerPoint presentation provides an overview of our project goals, timeline, and key deliverables for stakeholders.
+            </div>
+            <a href="project-overview.pptx" class="resource-link powerpoint-link">Open PowerPoint Presentation</a>
+        </div>
+    </div>
+</body>
+</html>
